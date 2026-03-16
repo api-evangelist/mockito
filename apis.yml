@@ -1,9 +1,11 @@
+aid: mockito
 name: Mockito
 description: Mockito is a popular mocking framework for unit tests in Java. It lets you write beautiful tests with a clean & simple API.
-image: https://site.mockito.org/img/logo.png
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 tags:
 - Java
 - Testing
@@ -13,9 +15,8 @@ tags:
 apis:
 - name: Mockito Core API
   description: The core Mockito mocking framework API for creating mock objects and defining behavior
-  image: https://site.mockito.org/img/logo.png
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
   humanURL: https://site.mockito.org
-  baseURL: https://javadoc.io/doc/org.mockito/mockito-core/latest
   tags:
   - Mocking
   - Java
@@ -23,17 +24,8 @@ apis:
   properties:
   - type: Documentation
     url: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
-  - type: User Guide
-    url: https://github.com/mockito/mockito/wiki
   - type: GitHub Repository
     url: https://github.com/mockito/mockito
-  - type: Maven Central
-    url: https://central.sonatype.com/artifact/org.mockito/mockito-core
-  contact:
-  - type: GitHub Issues
-    url: https://github.com/mockito/mockito/issues
-  - type: Stack Overflow
-    url: https://stackoverflow.com/questions/tagged/mockito
 common:
 - type: Website
   url: https://site.mockito.org
@@ -41,15 +33,6 @@ common:
   url: https://github.com/mockito
 - type: Getting Started
   url: https://site.mockito.org/#how
-- type: Release Notes
-  url: https://github.com/mockito/mockito/releases
-- type: Contributing Guide
-  url: https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md
-- type: License
-  url: https://github.com/mockito/mockito/blob/main/LICENSE
-- type: Code of Conduct
-  url: https://github.com/mockito/mockito/blob/main/.github/CODE_OF_CONDUCT.md
 maintainers:
-- name: Mockito Team
-  type: GitHub
-  url: https://github.com/mockito
+- FN: Kin Lane
+  email: kin@apievangelist.com
