@@ -1,38 +1,43 @@
 aid: mockito
 name: Mockito
-description: Mockito is a popular mocking framework for unit tests in Java. It lets you write beautiful tests with a clean & simple API.
+description: Mockito is a popular mocking framework for unit tests in Java. It 
+  lets you write beautiful tests with a clean & simple API.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 created: '2024'
 modified: '2026-03-16'
 specificationVersion: '0.19'
 tags:
-- Java
-- Testing
-- Mocking
-- Unit Testing
-- Open Source
-apis:
-- name: Mockito Core API
-  description: The core Mockito mocking framework API for creating mock objects and defining behavior
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-  humanURL: https://site.mockito.org
-  tags:
-  - Mocking
   - Java
   - Testing
-  properties:
-  - type: Documentation
-    url: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
-  - type: GitHub Repository
-    url: https://github.com/mockito/mockito
+  - Mocking
+  - Unit Testing
+  - Open Source
+apis:
+  - name: Mockito Core API
+    description: >-
+      The core Mockito mocking framework API for creating mock objects and defining
+      behavior.
+    image: 
+      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://site.mockito.org
+    tags:
+      - Mocking
+      - Java
+      - Testing
+    properties:
+      - type: Documentation
+        url: 
+          https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
+      - type: GitHub Repository
+        url: https://github.com/mockito/mockito
 common:
-- type: Website
-  url: https://site.mockito.org
-- type: GitHub Organization
-  url: https://github.com/mockito
-- type: Getting Started
-  url: https://site.mockito.org/#how
+  - type: Website
+    url: https://site.mockito.org
+  - type: GitHub Organization
+    url: https://github.com/mockito
+  - type: Getting Started
+    url: https://site.mockito.org/#how
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
