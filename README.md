@@ -1,28 +1,29 @@
 # Mockito (mockito)
-Mockito is a popular mocking framework for unit tests in Java. It lets you write beautiful tests with a clean & simple API.
+
+Mockito is a popular open-source mocking framework for unit tests in Java. It lets developers write clean, readable tests by creating mock objects, stubbing their behavior, verifying interactions, and using simple, fluent APIs to keep test setup minimal and intent obvious.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mockito/refs/heads/main/apis.yml)
 
-## Tags:
+## Tags
 
- - Java, Testing, Mocking, Unit Testing, Open Source
+ - Java, Mocking, Testing, Unit Testing, Open Source, Framework
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024
+- **Modified:** 2026-04-28
 
 ## APIs
 
-### Mockito Core API
-The core Mockito mocking framework API for creating mock objects and defining behavior
+### Mockito Core
+
+The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gradle artifact) rather than a network REST API, so no OpenAPI definition is published in this repository.
 
 **Human URL:** [https://site.mockito.org](https://site.mockito.org)
 
+#### Tags
 
-#### Tags:
-
- - Mocking, Java, Testing
+ - Java, Mocking, Testing, Library
 
 #### Properties
 
@@ -43,4 +44,5 @@ The core Mockito mocking framework API for creating mock objects and defining be
 
 ## Maintainers
 
-**FN:** Mockito Team
+**FN:** Kin Lane
+**Email:** kin@apievangelist.com
