@@ -39,18 +39,18 @@ apis:
         url: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
       - type: User Guide
         url: https://github.com/mockito/mockito/wiki
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/mockito/mockito
       - type: Maven Central
         url: https://central.sonatype.com/artifact/org.mockito/mockito-core
 common:
   - type: Website
     url: https://site.mockito.org
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/mockito
-  - type: Getting Started
+  - type: GettingStarted
     url: https://site.mockito.org/#how
-  - type: Release Notes
+  - type: ReleaseNotes
     url: https://github.com/mockito/mockito/releases
   - type: Contributing Guide
     url: https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md
