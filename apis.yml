@@ -6,7 +6,7 @@ description: >-
   their behavior, verifying interactions, and using simple, fluent APIs to keep
   test setup minimal and intent obvious.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mockito/refs/heads/main/apis.yml
 created: '2024'
@@ -27,7 +27,7 @@ apis:
       methods, verifying invocations, and writing expressive unit tests in
       Java. Mockito Core is consumed as a Java library (Maven / Gradle
       artifact) rather than a network REST API.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://site.mockito.org
     tags:
       - Java
