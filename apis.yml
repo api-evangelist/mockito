@@ -44,6 +44,8 @@ apis:
       - type: Maven Central
         url: https://central.sonatype.com/artifact/org.mockito/mockito-core
 common:
+  - type: DomainSecurity
+    url: security/mockito-domain-security.yml
   - type: Website
     url: https://site.mockito.org
   - type: GitHubOrganization
