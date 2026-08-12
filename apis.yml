@@ -56,6 +56,10 @@ apis:
       - type: Maven Central
         url: https://central.sonatype.com/artifact/org.mockito/mockito-core
 common:
+  - type: IssueTracker
+    url: https://github.com/mockito/mockito/issues
+  - type: SecurityPolicy
+    url: https://github.com/mockito/mockito/blob/main/SECURITY.md
   - type: DomainSecurity
     url: security/mockito-domain-security.yml
   - type: Website
