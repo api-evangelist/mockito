@@ -1,4 +1,4 @@
-# Mockito (mockito)
+# Mockito
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,47 +66,101 @@
 
 Mockito is a popular open-source mocking framework for unit tests in Java. It lets developers write clean, readable tests by creating mock objects, stubbing their behavior, verifying interactions, and using simple, fluent APIs to keep test setup minimal and intent obvious.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/mockito/refs/heads/main/apis.yml)
+**Areas:** Java · Mocking · Testing · Unit Testing · Open Source · Framework
 
-## Tags
+## Mockito on APIs.io
 
- - Java, Mocking, Testing, Unit Testing, Open Source, Framework
+Everything profiled for Mockito is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mockito/](https://apis.io/providers/mockito/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2024
-- **Modified:** 2026-04-28
+- [Mockito Core](https://apis.io/apis/mockito/mockito-core/) — The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito…
 
-## APIs
+### Published properties
 
-### Mockito Core
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The core Mockito mocking framework for creating mock objects, stubbing methods, verifying invocations, and writing expressive unit tests in Java. Mockito Core is consumed as a Java library (Maven / Gradle artifact) rather than a network REST API, so no OpenAPI definition is published in this repository.
+#### Security (1)
 
-**Human URL:** [https://site.mockito.org](https://site.mockito.org)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Mockito Domain Security](https://apis.io/security/mockito/mockito-domain-security/)
 
- - Java, Mocking, Testing, Library
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
-- [User Guide](https://github.com/mockito/mockito/wiki)
-- [GitHub Repository](https://github.com/mockito/mockito)
-- [Maven Central](https://central.sonatype.com/artifact/org.mockito/mockito-core)
+- [Mockito Plans Pricing](https://apis.io/plans/mockito/mockito-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Mockito Rate Limits](https://apis.io/rate-limits/mockito/mockito-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Mockito Finops](https://apis.io/finops/mockito/mockito-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://site.mockito.org)
-- [GitHub Organization](https://github.com/mockito)
-- [Getting Started](https://site.mockito.org/#how)
-- [Release Notes](https://github.com/mockito/mockito/releases)
-- [Contributing Guide](https://github.com/mockito/mockito/blob/main/.github/CONTRIBUTING.md)
-- [License](https://github.com/mockito/mockito/blob/main/LICENSE)
-- [Code of Conduct](https://github.com/mockito/mockito/blob/main/.github/CODE_OF_CONDUCT.md)
+- [Getting started](https://site.mockito.org/#how)
+- [GitHub](https://github.com/mockito)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 20.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 15.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mockito/](https://apis.io/providers/mockito/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mockito: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mockito/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
